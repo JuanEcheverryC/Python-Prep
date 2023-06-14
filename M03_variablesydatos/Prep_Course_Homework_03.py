@@ -7,13 +7,13 @@
 
 # In[7]:
 
-
+a=8
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
-
+print(a)
 
 
 
@@ -23,14 +23,14 @@
 # In[8]:
 
 
-
+type(a)
 
 
 # 4) Crear una variable que contenga tu nombre
 
 # In[2]:
 
-
+nombre='Juan'
 
 
 # 5) Crear una variable que contenga un número complejo
@@ -38,7 +38,7 @@
 # In[3]:
 
 
-
+c=4+4j
 
 
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
@@ -46,7 +46,7 @@
 # In[4]:
 
 
-
+type(c)
 
 
 # 7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
@@ -61,7 +61,8 @@ pi = 3.1416
 
 # In[3]:
 
-
+var1='true'
+var2=true
 
 
 
@@ -69,7 +70,8 @@ pi = 3.1416
 
 # In[5]:
 
-
+print type(var1)
+print type(var2)
 
 
 
@@ -77,7 +79,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+Suma=4+4.4
 
 
 
@@ -85,7 +87,7 @@ pi = 3.1416
 
 # In[2]:
 
-
+sumac=(4+2j) + (2+3j)
 
 
 
@@ -93,7 +95,7 @@ pi = 3.1416
 
 # In[4]:
 
-
+suma2=3.3+(5+2j)
 
 
 
@@ -101,7 +103,7 @@ pi = 3.1416
 
 # In[5]:
 
-
+mult=3*6
 
 
 
@@ -109,7 +111,7 @@ pi = 3.1416
 
 # In[6]:
 
-
+2**8
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
@@ -117,14 +119,14 @@ pi = 3.1416
 # In[8]:
 
 
-
+27/4
 
 
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
 
-
+27//4
 
 
 
@@ -132,7 +134,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+27%4
 
 
 
@@ -141,7 +143,7 @@ pi = 3.1416
 # In[2]:
 
 
-
+6*4+3
 
 
 # 19) Utilizar el operador "+" en una operación donde intervengan solo variables alfanuméricas
@@ -149,15 +151,17 @@ pi = 3.1416
 # In[3]:
 
 
-
-
+Var3='hola '
+var4='mundo'
+sumatex=var2+var4
+print(sumatex)
 
 # 20) Evaluar si "2" es igual a 2. ¿Por qué ocurre eso?
 
 # In[4]:
 
 
-
+2=="2"
 
 
 # 21) Utilizar las funciones de cambio de tipo de dato, para que la validación del punto 20 resulte verdadera
@@ -165,7 +169,7 @@ pi = 3.1416
 # In[11]:
 
 
-
+2==int("2")
 
 
 # 22) ¿Por qué arroja error el siguiente cambio de tipo de datos? a = float('3,8')
@@ -181,7 +185,8 @@ pi = 3.1416
 # In[15]:
 
 
-
+b=3
+b-=1
 
 
 # 24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
@@ -189,15 +194,16 @@ pi = 3.1416
 # In[29]:
 
 
+g=1<<2
 
-
+print(g)
 
 # 25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
 
 # In[23]:
 
 
-
+2+'2'
 
 
 
@@ -206,4 +212,4 @@ pi = 3.1416
 # In[30]:
 
 
-
+suma8= 8 + int('5')
